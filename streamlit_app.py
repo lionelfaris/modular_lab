@@ -14,6 +14,10 @@ result = None
 if st.button("Calculate"):
     if operation == "Add":
         result = math.add(x, y)
+    elif operation == "Powers of numbers" :
+        result = math.powers_of_numbers(x,y)
+    elif operation == "Root" :
+        result = math.root(x,y)
     elif operation == "Subtract":
         result = math.subtract(x, y)
     elif operation == "Multiply":
