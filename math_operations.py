@@ -4,7 +4,7 @@ def powers_of_numbers(x,y) :
 
 def root(x,y) :
     """Return the root of x to y"""
-    return (x ** 1/y)
+    return (x ** (1/y))
     
 def add(x, y):
     """Return the sum of x and y."""
