@@ -7,7 +7,7 @@ x = st.number_input("Enter the first number:")
 y = st.number_input("Enter the second number:")
 
 operation = st.selectbox("Select an operation", 
-                        ("Add", "Subtract", "Multiply", "Divide"))
+                        ("Add", "Subtract", "Multiply", "Divide", "Root", "Powers of numbers"))
 
 result = None
 
